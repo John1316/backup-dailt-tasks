@@ -9,13 +9,7 @@ EMAIL_ALERT="johnmaher179@gmail.com"  # Replace with your email address
 mkdir -p "$LOG_LOCATION"
 LOG_FILE="$LOG_LOCATION/backup_$TIMESTAMP.log"
 
-/*************  ✨ Windsurf Command ⭐  *************/
-# Logs a message to both standard output and a log file.
-# The message is timestamped and appended to the specified log file.
-# Arguments:
-#   $1: The message to log.
-
-/*******  f7637366-b435-4a40-9d22-8c57cde2c17a  *******/log_message() {
+log_message() {
     echo "$1"
     echo "$(date +"%Y-%m-%d %H:%M:%S") - $1" >> "$LOG_FILE"
 }

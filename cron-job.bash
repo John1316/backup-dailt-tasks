@@ -1,6 +1,6 @@
 #!/bin/bash
 # Change this to the location of your backup script
-BACKUP_SCRIPT="/home/john/Desktop/backup-task.bash"
+BACKUP_SCRIPT="backup-task.bash"
 
 # Make the backup script executable
 chmod +x "$BACKUP_SCRIPT"

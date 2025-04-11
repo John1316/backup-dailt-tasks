@@ -13,7 +13,7 @@ This package contains two scripts that work together to create an automated back
    chmod +x cron-job.bash
    chmod +x backup-task.bash
    ```
-
+3. be aware tp install crontab
 ## Configuration
 
 ### Backup Script (system_daily.bash)
